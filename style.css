@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 10px;
+    
+    
+}
+.post {
+    display: flex;
+    background-color: white;
+    max-width: 500px;
+    max-height: 650px;
+    margin: auto;
+    flex-direction: column;
+
+
+}
+
+.post .encabezado{
+    display: flex; 
+    padding: 10px;
+}
+
+.logo{
+    max-width: 60px;
+    max-height: 60px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.texto {
+display: block;
+font-size: 20px;
+margin-top: 10px;
+
+   
+
+}
+.post .encabezado .menu {
+    
+    width: 300px;
+    height: 40px;
+    margin: 10px 10px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+
+    
+    
+}
+.foto {
+    width: 100%;
+
+}  
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 10px;
+    
+
+}
+.parrafos {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family:  sans-serif;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+.body {
+    padding-bottom: 10px;
+}
+
